@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traffic Violation Notice</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    "
+  >
+    <div
+      class="container"
+      style="
+        width: 80%;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <div
+        class="header"
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: 2px solid #000;
+          padding-bottom: 10px;
+          margin-bottom: 20px;
+        "
+      >
+        <div
+          class="police-info"
+          style="
+            display: flex !important;
+            justify-content: flex-end;
+            align-items: center;
+          "
+        >
+          <div class="logo">
+            <img src="./images/logo.png" alt="Police Logo" />
+          </div>
+          <div class="notice-title" style="margin: 0 10px">
+            <h1 style="font-size: 24px; text-align: center">
+              Traffic Violation Notice
+            </h1>
+          </div>
+        </div>
+
+        <div
+          class="date-ref"
+          style="text-align: right; display: flex; flex-direction: column"
+        >
+          <p style="margin: 5px 0">Date of issue: 18 December 2024</p>
+          <p style="margin: 5px 0">Reference Number: S-21990293</p>
+          <p style="margin: 5px 0">
+            <img src="./images/barcode.png" alt="Barcode" />
+          </p>
+        </div>
+      </div>
+      <div class="content">
+        <p>Dear Sir/Madam,</p>
+        <p>
+          This notice serves to inform you that a violation of traffic
+          regulations, as prescribed by Serbian law, has been recorded on
+          04/06/2024 14:30:15 at Kneza Miloša Street, Belgrade, Serbia. It is
+          imperative to note that this violation is in accordance with the legal
+          statutes governing road safety in Serbia.
+        </p>
+
+        <h2 style="font-size: 20px; margin-bottom: 10px">Violation Details</h2>
+        <div
+          class="violation-details"
+          style="display: grid; grid-template-columns: auto auto; gap: 10px"
+        >
+          <img
+            style="width: 100%; height: 100%"
+            src="./images/Rectangle 1.png"
+            alt="Violation Image 1"
+            class="grid-item"
+          />
+          <img
+            style="width: 100%; height: 100%"
+            src="./images/Rectangle 2.png"
+            alt="Violation Image 2"
+            class="grid-item"
+          />
+          <img
+            style="width: 100%; height: 100%"
+            src="./images/Rectangle 3.png"
+            alt="Violation Image 3"
+            class="grid-item"
+          />
+          <img
+            style="width: 100%; height: 100%"
+            src="./images/Rectangle 4.png"
+            alt="License Plate"
+            class="grid-item"
+          />
+        </div>
+
+        <div class="violation-info" style="margin-top: 10px">
+          <table
+            style="
+              border: 2px solid rgba(128, 128, 128, 0.416);
+              border-collapse: collapse;
+              padding: 20px;
+              width: 100%;
+            "
+          >
+            <tr>
+              <td
+                style="
+                  width: 30%;
+                  border: 2px solid rgba(128, 128, 128, 0.416);
+                  border-collapse: collapse;
+                  padding: 20px;
+                "
+              >
+                <strong>Date and Time:</strong>
+              </td>
+              <td
+                style="
+                  border: 2px solid rgba(128, 128, 128, 0.416);
+                  border-collapse: collapse;
+                  padding: 20px;
+                  width: 100%;
+                "
+              >
+                04/06/2024 14:30:15
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                style="
+                  width: 30%;
+                  border: 2px solid rgba(128, 128, 128, 0.416);
+                  border-collapse: collapse;
+                  padding: 20px;
+                "
+              >
+                <strong>Location of violation:</strong>
+              </td>
+              <td
+                style="
+                  border: 2px solid rgba(128, 128, 128, 0.416);
+                  border-collapse: collapse;
+                  padding: 20px;
+                  width: 100%;
+                "
+              >
+                <p>Kneza Miloša Street, Belgrade, Serbia</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                style="
+                  width: 30%;
+                  border: 2px solid rgba(128, 128, 128, 0.416);
+                  border-collapse: collapse;
+                  padding: 20px;
+                "
+              >
+                <strong><strong>Type of violation:</strong></strong>
+              </td>
+              <td
+                style="
+                  border: 2px solid rgba(128, 128, 128, 0.416);
+                  border-collapse: collapse;
+                  padding: 20px;
+                  width: 100%;
+                "
+              >
+                <p>Failure to Wear seatbelt</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                style="
+                  width: 30%;
+                  border: 2px solid rgba(128, 128, 128, 0.416);
+                  border-collapse: collapse;
+                  padding: 20px;
+                "
+              >
+                <strong>Plate Number:</strong>
+              </td>
+              <td
+                class="plate-num"
+                style="
+                border: none;
+                  border-collapse: collapse;
+                  padding: 20px;
+                  width: 100%;
+                  display: flex;
+                  gap: 7px;
+                "
+              >
+                <p
+                  style="
+                    padding: 10px 15px;
+                    border: 1px solid rgba(128, 128, 128, 0.416);
+                  "
+                >
+                  K
+                </p>
+                <p
+                  style="
+                    padding: 10px 15px;
+                    border: 1px solid rgba(128, 128, 128, 0.416);
+                  "
+                >
+                  S
+                </p>
+                <p
+                  style="
+                    padding: 10px 15px;
+                    border: 1px solid rgba(128, 128, 128, 0.416);
+                  "
+                >
+                  0
+                </p>
+                <p
+                  style="
+                    padding: 10px 15px;
+                    border: 1px solid rgba(128, 128, 128, 0.416);
+                  "
+                >
+                  5
+                </p>
+                <p
+                  style="
+                    padding: 10px 15px;
+                    border: 1px solid rgba(128, 128, 128, 0.416);
+                  "
+                >
+                  5
+                </p>
+                <p
+                  style="
+                    padding: 10px 15px;
+                    border: 1px solid rgba(128, 128, 128, 0.416);
+                  "
+                >
+                  H
+                </p>
+                <p
+                  style="
+                    padding: 10px 15px;
+                    border: 1px solid rgba(128, 128, 128, 0.416);
+                  "
+                >
+                  I
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <h2>Penalties</h2>
+        <p>
+          According to the traffic laws of Serbia, the violation you committed
+          carries the following penalties:
+        </p>
+        <ul style="margin: 10px 0; padding-left: 20px">
+          <li style="margin-bottom: 5px">Fine: 5,000 RSD</li>
+          <li style="margin-bottom: 5px">Demerit Points: 100 Points</li>
+        </ul>
+        <p>
+          If you believe this notice has been issued in error or wish to contest
+          the violation, you have the right to appeal. Please follow the
+          instructions provided on the next page of this notice to initiate the
+          appeal process.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

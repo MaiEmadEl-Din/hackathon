@@ -1,0 +1,117 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+} */
+
+/* .container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+/* 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+} */
+
+/* .logo img {
+    width: 80px;
+} */
+
+/* .notice-title h1 {
+    font-size: 24px;
+    text-align: center;
+} */
+
+/* .date-ref {
+    text-align: right;
+} */
+
+/* .date-ref p {
+    margin: 5px 0;
+}
+
+.content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+} */
+
+/* .violation-info p {
+    margin: 5px 0;
+} */
+/* 
+.violation-info p strong {
+    display: inline-block;
+    width: 180px;
+} */
+
+/* ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+
+.police-info{
+    display: flex !important;
+
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.date-ref{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* .notice-title{
+    margin: 0 10px;
+} */
+
+/* img{
+    width: 100%;
+    height: 100%;
+} */
+
+/* .violation-details{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+} */
+
+
+/* .violation-info{
+margin-top:10px ;
+} */
+
+/* table, td {
+    border: 2px solid rgba(128, 128, 128, 0.416);
+    border-collapse: collapse;
+    padding: 20px;
+    width: 100%;
+  } 
+
+  tr td:first-child{
+    width: 5%;
+  }
+
+  .plate-num{
+    display: flex;
+    gap:7px;
+  }
+  .plate-num p{
+    padding: 10px 15px; 
+    border: 1px solid rgba(128, 128, 128, 0.416);
+  } */
